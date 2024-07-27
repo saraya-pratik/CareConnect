@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity"
-    android:background="@drawable/back1">
+    android:background="@drawable/background"
+    tools:context=".RegisterActivity">
 
     <EditText
         android:id="@+id/editTextRegEmail"
@@ -100,6 +100,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.081" />
+
     <TextView
         android:id="@+id/textViewExistingUser"
         android:layout_width="wrap_content"

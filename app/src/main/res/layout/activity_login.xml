@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
-    android:background="@drawable/back1">
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
 
     <EditText
         android:id="@+id/editTextLoginPassword"
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Care Connect"
-        android:textColor="@color/purple_200"
+        android:textColor="#9C27B0"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
